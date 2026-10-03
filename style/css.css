@@ -1,24 +1,36 @@
+.header-bgk{
 
+    background-image: url(../imgs/download.jpg);
+    width: 100%;
+    margin: auto ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
 
+    
+}
 
-.ins-icon{
-    animation: name duration timing-function delay iteration-count direction fill-mode;
-    animation:  fadeInLeft  2s     ease-in    0s     infinite     normal   forwards    !important ;
+.headline h2{
+    background-color: hsl(162, 29%, 49%);
+    min-height: auto;
+    width: 590px; border-radius: 30px;
+    opacity: 0.85;
 }
 
 
+.Seconed-article{
 
-    /* Default height for small devices */
-    #intro-example {
-      height: 400px;
-    }
+    background-image:  url(../imgs/Path\ 62.png), url(../imgs/i-love-my-job-so-much_329181-2178.png) ;
 
-    /* Height for devices larger than 992px */
-    @media (min-width: 992px) {
-      #intro-example {
-        height: 800px;
-      }
-    }
-  
+    background-repeat: no-repeat;
+
+}
 
 
+.bg-neutral-primary-soft{
+
+     border-top-left-radius:  200px ;
+
+     border-top-right-radius: 200px;
+}
